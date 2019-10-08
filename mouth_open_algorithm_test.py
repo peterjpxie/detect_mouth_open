@@ -8,8 +8,7 @@ bottom_lip = [(291, 364), (270, 389), (243, 401), (223, 403), (207, 399), (190, 
 # top_lip = [(151, 127), (157, 126), (163, 126), (168, 127), (172, 127), (178, 127), (185, 129), (182, 129), (172, 130), (167, 130), (163, 129), (153, 127)]
 # bottom_lip = [(185, 129), (177, 133), (171, 135), (166, 135), (161, 134), (156, 132), (151, 127), (153, 127), (162, 129), (167, 130), (171, 130), (182, 129)]
 
-print('top_lip height:', get_lip_height(top_lip))
-print('bottom_lip height:', get_lip_height(bottom_lip))
-print('mouth height:', get_mouth_height(top_lip,bottom_lip))
+print('top_lip height: %.2f' % get_lip_height(top_lip))
+print('bottom_lip height: %.2f' % get_lip_height(bottom_lip))
+print('mouth height: %.2f' % get_mouth_height(top_lip,bottom_lip))
 print('Is mouth open:', check_mouth_open(top_lip,bottom_lip) )
-

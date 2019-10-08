@@ -28,6 +28,11 @@ def is_mouth_open(face_landmarks):
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
 
+# Define the codec and create VideoWriter object to save video to local
+fourcc = cv2.VideoWriter_fourcc(*'XVID') # codec
+# cv2.VideoWriter( filename, fourcc, fps, frameSize )
+out = cv2.VideoWriter('output.avi', fourcc, 7, (640, 480)) 
+
 # Load a sample picture and learn how to recognize it.
 peter_image = face_recognition.load_image_file("peter.jpg") # replace peter.jpg with your own image !!
 peter_face_encoding = face_recognition.face_encodings(peter_image)[0]
@@ -70,6 +75,7 @@ while True:
 
     # Display the resulting image
     cv2.imshow('Video', frame)
+    out.write(frame)
 
     # Hit 'q' on the keyboard to quit!
     if cv2.waitKey(1) & 0xFF == ord('q'):

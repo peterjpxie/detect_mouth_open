@@ -1,0 +1,11 @@
+$ python find_facial_features_in_picture.py 
+I found 1 face(s) in this photograph.
+The chin in this face has the following points: [(149, 233), (145, 265), (146, 299), (149, 332), (153, 365), (162, 398), (177, 427), (194, 451), (225, 461), (263, 460), (300, 445), (337, 426), (368, 401), (389, 369)]
+The left_eyebrow in this face has the following points: [(151, 215), (162, 196), (184, 192), (206, 195), (228, 203)]
+The right_eyebrow in this face has the following points: [(260, 206), (290, 201), (321, 204), (348, 214), (369, 234)]
+The nose_bridge in this face has the following points: [(238, 228), (232, 247), (225, 266), (219, 285)]
+The nose_tip in this face has the following points: [(198, 303), (210, 307), (223, 312), (242, 309), (260, 306)]
+The left_eye in this face has the following points: [(169, 226), (181, 215), (198, 216), (213, 230), (196, 231), (180, 231)]
+The right_eye in this face has the following points: [(283, 236), (298, 224), (317, 227), (334, 239), (316, 242), (297, 240)]
+The top_lip in this face has the following points: [(181, 359), (192, 339), (211, 332), (225, 336), (243, 333), (271, 342), (291, 364), (282, 363), (242, 346), (225, 347), (211, 345), (188, 358)]
+The bottom_lip in this face has the following points: [(291, 364), (270, 389), (243, 401), (223, 403), (207, 399), (190, 383), (181, 359), (188, 358), (210, 377), (225, 381), (243, 380), (282, 363)]
