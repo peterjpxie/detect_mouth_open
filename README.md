@@ -19,5 +19,7 @@ Install [face_recognition](https://github.com/ageitgey/face_recognition.git) pac
 
 ## Run real-time webcam example
 git clone https://github.com/peterjpxie/detect_mouth_open.git
+
 cd detect_mouth_open
+
 python facerec_from_webcam_mouth_open.py
